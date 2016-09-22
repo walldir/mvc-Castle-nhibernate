@@ -14,17 +14,32 @@ namespace MVCCastleNHibernate.WebAPI
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
+        private WindsorContainer _container;
         protected void Application_Start()
         {
+            InitializeWindsor();
+
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+        }
 
-            var container = new WindsorContainer();
-            container.Install(FromAssembly.This());
-            GlobalConfiguration.Configuration.DependencyResolver = new Infrastructure.DependencyResolver(container.Kernel);
+        protected void Application_End()
+        {
+            if (_container != null)
+            {
+                _container.Dispose();
+            }
+        }
+
+        public void InitializeWindsor()
+        {
+            _container = new WindsorContainer();
+            _container.Install(FromAssembly.This());
+
+            GlobalConfiguration.Configuration.DependencyResolver = new Infrastructure.Dependency.DependencyResolver(_container.Kernel);
         }
     }
 }

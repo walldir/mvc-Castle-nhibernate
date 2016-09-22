@@ -1,13 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCCastleNHibernate.WebAPI", "MVCCastleNHibernate.WebAPI\MVCCastleNHibernate.WebAPI.csproj", "{C76AE2B8-63B5-431C-8206-D04813C308BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCCastleNHibernate.Tests", "MVCCastleNHibernate.Tests\MVCCastleNHibernate.Tests.csproj", "{ED7AC3FF-A30D-4359-9A04-7311837330EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCCastleNHibernate.App", "MVCCastleNHibernate.App\MVCCastleNHibernate.App.csproj", "{8A2CBA0D-F06D-4036-BFEA-4FE000313DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCCastleNHibernate.Core", "MVCCastleNHibernate.Core\MVCCastleNHibernate.Core.csproj", "{CAB7D454-0F79-4264-BE0B-A17B6F28F371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCCastleNHibernate.Data.NHibernate", "MVCCastleNHibernate.Data.NHibernate\MVCCastleNHibernate.Data.NHibernate.csproj", "{3CE75AC2-6C38-44FE-93FE-232D10837109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{C8423E24-E227-4674-9785-70E2882151B7}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\rapha\Desktop\dbo.Table.sql = ..\..\..\Users\rapha\Desktop\dbo.Table.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +36,14 @@ Global
 		{8A2CBA0D-F06D-4036-BFEA-4FE000313DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A2CBA0D-F06D-4036-BFEA-4FE000313DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A2CBA0D-F06D-4036-BFEA-4FE000313DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB7D454-0F79-4264-BE0B-A17B6F28F371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB7D454-0F79-4264-BE0B-A17B6F28F371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB7D454-0F79-4264-BE0B-A17B6F28F371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB7D454-0F79-4264-BE0B-A17B6F28F371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE75AC2-6C38-44FE-93FE-232D10837109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE75AC2-6C38-44FE-93FE-232D10837109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE75AC2-6C38-44FE-93FE-232D10837109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE75AC2-6C38-44FE-93FE-232D10837109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

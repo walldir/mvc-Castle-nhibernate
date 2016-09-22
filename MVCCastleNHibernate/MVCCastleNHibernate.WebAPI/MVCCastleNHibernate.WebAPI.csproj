@@ -53,6 +53,10 @@
       <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="FluentNHibernate, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentNHibernate.2.0.3.0\lib\net40\FluentNHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <HintPath>..\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
       <Private>True</Private>
@@ -166,7 +170,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
+    <ProjectReference Include="..\MVCCastleNHibernate.Core\MVCCastleNHibernate.Core.csproj">
+      <Project>{CAB7D454-0F79-4264-BE0B-A17B6F28F371}</Project>
+      <Name>MVCCastleNHibernate.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVCCastleNHibernate.Data.NHibernate\MVCCastleNHibernate.Data.NHibernate.csproj">
+      <Project>{3CE75AC2-6C38-44FE-93FE-232D10837109}</Project>
+      <Name>MVCCastleNHibernate.Data.NHibernate</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -206,16 +217,18 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Infrastructure\DependencyResolver.cs" />
-    <Compile Include="Infrastructure\DependencyScope.cs" />
-    <Compile Include="Infrastructure\WindsorInstaller.cs" />
+    <Compile Include="Infrastructure\Dependency\DependencyResolver.cs" />
+    <Compile Include="Infrastructure\Dependency\DependencyScope.cs" />
+    <Compile Include="Infrastructure\Dependency\UnitOfWorkHelper.cs" />
+    <Compile Include="Infrastructure\Installer\ClienteDependencyInstaller.cs" />
+    <Compile Include="Infrastructure\Dependency\NhUnitOfWorkInterceptor.cs" />
+    <Compile Include="Infrastructure\Installer\WindsorInstaller.cs" />
+    <Compile Include="Models\EntityBase.cs" />
+    <Compile Include="NHibernate\NHibernateHelper.cs" />
+    <Compile Include="NHibernate\SessionHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Database.mdf" />
-    <Content Include="App_Data\Database_log.ldf">
-      <DependentUpon>Database.mdf</DependentUpon>
-    </Content>
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -272,7 +285,9 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
