@@ -9,6 +9,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using Castle.Windsor;
 using Castle.Windsor.Installer;
+using MVCCastleNHibernate.WebAPI.Infrastructure.Installer;
 
 namespace MVCCastleNHibernate.WebAPI
 {

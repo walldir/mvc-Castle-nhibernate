@@ -133,8 +133,6 @@ C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\b
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\obj\Debug\MVCCastleNHibernate.WebAPI.csprojResolveAssemblyReference.cache
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\obj\Debug\MVCCastleNHibernate.WebAPI.dll
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\obj\Debug\MVCCastleNHibernate.WebAPI.pdb
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\Database\ClienteDB.mdf
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\Database\ClienteDB_log.ldf
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\MVCCastleNHibernate.Core.dll
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\MVCCastleNHibernate.Data.NHibernate.dll
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\MVCCastleNHibernate.Core.pdb

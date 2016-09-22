@@ -12,5 +12,3 @@ C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHi
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\obj\Debug\MVCCastleNHibernate.Data.NHibernate.csprojResolveAssemblyReference.cache
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\obj\Debug\MVCCastleNHibernate.Data.NHibernate.dll
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\obj\Debug\MVCCastleNHibernate.Data.NHibernate.pdb
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\Database\ClienteDB.mdf
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\Database\ClienteDB_log.ldf

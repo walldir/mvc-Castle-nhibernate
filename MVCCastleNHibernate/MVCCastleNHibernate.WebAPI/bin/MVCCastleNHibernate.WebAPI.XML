@@ -481,7 +481,7 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
-        <member name="M:MVCCastleNHibernate.WebAPI.Controllers.ValuesController.Get(System.Int32)">
+        <member name="M:MVCCastleNHibernate.WebAPI.Controllers.ClienteController.Get(System.Int32)">
             <summary>
             Retonar valor
             </summary>
