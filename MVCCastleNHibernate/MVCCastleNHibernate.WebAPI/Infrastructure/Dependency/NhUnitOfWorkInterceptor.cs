@@ -9,7 +9,7 @@ using MVCCastleNHibernate.WebAPI.Infrastructure.Dependency;
 using NHibernate;
 using IInterceptor = Castle.DynamicProxy.IInterceptor;
 
-namespace MVCCastleNHibernate.WebAPI.Infrastructure.Installer
+namespace MVCCastleNHibernate.WebAPI.Infrastructure.Dependency
 {
     public class NhUnitOfWorkInterceptor : IInterceptor
     {

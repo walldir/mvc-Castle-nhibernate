@@ -108,8 +108,6 @@ C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bi
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\obj\Debug\MVCCastleNHibernate.Tests.csprojResolveAssemblyReference.cache
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\obj\Debug\MVCCastleNHibernate.Tests.dll
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\obj\Debug\MVCCastleNHibernate.Tests.pdb
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\Database\ClienteDB.mdf
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\Database\ClienteDB_log.ldf
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\MVCCastleNHibernate.Data.NHibernate.dll
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\MVCCastleNHibernate.Core.dll
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\MVCCastleNHibernate.Data.NHibernate.pdb
