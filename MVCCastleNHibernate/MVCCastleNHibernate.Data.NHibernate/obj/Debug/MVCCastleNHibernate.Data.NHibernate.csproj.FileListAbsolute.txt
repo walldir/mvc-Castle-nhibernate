@@ -1,17 +1,3 @@
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\MVCCastleNHibernate.Data.NHibernate.dll
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\MVCCastleNHibernate.Data.NHibernate.pdb
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\FluentNHibernate.dll
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\Iesi.Collections.dll
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\MVCCastleNHibernate.Core.dll
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\NHibernate.dll
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\MVCCastleNHibernate.Core.pdb
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\FluentNHibernate.pdb
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\FluentNHibernate.xml
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\Iesi.Collections.xml
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\NHibernate.xml
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\obj\Debug\MVCCastleNHibernate.Data.NHibernate.csprojResolveAssemblyReference.cache
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\obj\Debug\MVCCastleNHibernate.Data.NHibernate.dll
-C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\obj\Debug\MVCCastleNHibernate.Data.NHibernate.pdb
 C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\MVCCastleNHibernate.Data.NHibernate.dll
 C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\MVCCastleNHibernate.Data.NHibernate.pdb
 C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Data.NHibernate\bin\Debug\FluentNHibernate.dll
