@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
+     @Styles.Render("~/Content/css")
+    <link href="~/Scripts/SweetAlert/sweetalert.css" rel="stylesheet" />
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -32,6 +33,7 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     <script src="~/Scripts/jquery.mask.min.js"></script>
+    <script src="~/Scripts/SweetAlert/sweetalert.min.js"></script>
     @Scripts.Render("~/bundles/angularjs")
     @Scripts.Render("~/bundles/appjs")
     @RenderSection("scripts", required: false)

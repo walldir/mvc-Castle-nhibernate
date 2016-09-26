@@ -6,6 +6,7 @@
 
     app.directive('telefoneDir', TelefoneDir);
 
+    //Diretiva para mascará de telefone
     function TelefoneDir() {
         return {
             link: function (scope, element, attrs) {
@@ -57,10 +58,11 @@
         $scope.add = function () {
             $scope.loading = true;
             $http.post('/api/Cliente/AddEdit/', this.novoCliente).success(function (data) {
-                alert("Cliente Adicionado!!");
+                swal("Sucesso", "Cliente Adicionado!!", "success");
                 $scope.addMode = false;
                 $scope.clientes.push(data);
                 $scope.loading = false;
+                $scope.novoCliente = null;
             }).error(function (data) {
                 $scope.error = "Erro! " + data;
                 $scope.loading = false;
@@ -72,7 +74,7 @@
             $scope.loading = true;
             var cliente = this.cliente;
             $http.post('/api/Cliente/AddEdit/', this.cliente).success(function (data) {
-                alert("Cliente Editado!!");
+                swal("Sucesso", "Cliente Editadp!!", "success");
                 cliente.editMode = false;
                 $scope.loading = false;
             }).error(function (data) {
@@ -81,11 +83,12 @@
             });
         };
 
+        //Excluí Cliente
         $scope.deleteCliente = function () {
             $scope.loading = true;
             var id = this.cliente.Id;
             $http.get('/api/Cliente/Delete/' + id).success(function (data) {
-                alert("Excluído com Sucesso!!");
+                swal("Sucesso", "Cliente Excluído!!", "success");
                 $.each($scope.clientes, function (i) {
                     if ($scope.clientes[i].Id === id) {
                         $scope.clientes.splice(i, 1);
