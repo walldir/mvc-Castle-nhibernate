@@ -494,15 +494,9 @@
             <param name="id">Id do cliente</param>
             <returns></returns>
         </member>
-        <member name="M:MVCCastleNHibernate.WebAPI.Controllers.ClienteController.Add(MVCCastleNHibernate.Core.Data.Entities.Cliente)">
+        <member name="M:MVCCastleNHibernate.WebAPI.Controllers.ClienteController.AddEdit(MVCCastleNHibernate.Core.Data.Entities.Cliente)">
             <summary>
-            Adiciona novo Cliente
-            </summary>
-            <param name="cliente">Cliente</param>
-        </member>
-        <member name="M:MVCCastleNHibernate.WebAPI.Controllers.ClienteController.Edit(MVCCastleNHibernate.Core.Data.Entities.Cliente)">
-            <summary>
-            Edita Cliente
+            Adiciona/Edita Cliente
             </summary>
             <param name="cliente">Cliente</param>
         </member>
