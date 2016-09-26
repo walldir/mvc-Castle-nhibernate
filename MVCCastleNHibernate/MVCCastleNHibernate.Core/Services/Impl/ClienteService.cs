@@ -24,19 +24,33 @@ namespace MVCCastleNHibernate.Core.Services.Impl
             return _clienteRepository.GetAll().OrderBy(cliente => cliente.Nome).ToList();
         }
 
-        public void CreateCliente(Cliente cliente)
+        public Cliente GetCliente(int id)
         {
+            return _clienteRepository.Get(id);
+        }
+
+        public bool CreateCliente(Cliente cliente)
+        {
+            if (string.IsNullOrEmpty(cliente.Nome))
+                return false;
+
             _clienteRepository.Insert(cliente);
+            return true;
         }
 
-        public void UpdateCliente(Cliente cliente)
+        public bool UpdateCliente(Cliente cliente)
         {
+            if (string.IsNullOrEmpty(cliente.Nome))
+                return false;
+
             _clienteRepository.Update(cliente);
+            return true;
         }
 
-        public void DeleteCliente(int clienteId)
+        public bool DeleteCliente(int clienteId)
         {
             _clienteRepository.Delete(clienteId);
+            return true;
         }
     }
 }

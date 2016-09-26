@@ -481,12 +481,30 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="M:MVCCastleNHibernate.WebAPI.Controllers.ClienteController.Get">
+            <summary>
+            Retorna todos os Clientes, ordenando por Nome.
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:MVCCastleNHibernate.WebAPI.Controllers.ClienteController.Get(System.Int32)">
             <summary>
-            Retonar valor
+            Retona Cliente por Id
             </summary>
-            <param name="id"></param>
+            <param name="id">Id do cliente</param>
             <returns></returns>
+        </member>
+        <member name="M:MVCCastleNHibernate.WebAPI.Controllers.ClienteController.AddEdit(MVCCastleNHibernate.Core.Data.Entities.Cliente)">
+            <summary>
+            Adiciona/Edita Cliente
+            </summary>
+            <param name="cliente">Cliente</param>
+        </member>
+        <member name="M:MVCCastleNHibernate.WebAPI.Controllers.ClienteController.Delete(System.Int32)">
+            <summary>
+            Exclui cliente
+            </summary>
+            <param name="id">Id do cliente</param>
         </member>
     </members>
 </doc>

@@ -3,3 +3,8 @@ C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Core\bin
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Core\obj\Debug\MVCCastleNHibernate.Core.csprojResolveAssemblyReference.cache
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Core\obj\Debug\MVCCastleNHibernate.Core.dll
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Core\obj\Debug\MVCCastleNHibernate.Core.pdb
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Core\bin\Debug\MVCCastleNHibernate.Core.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Core\bin\Debug\MVCCastleNHibernate.Core.pdb
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Core\obj\Debug\MVCCastleNHibernate.Core.csprojResolveAssemblyReference.cache
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Core\obj\Debug\MVCCastleNHibernate.Core.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Core\obj\Debug\MVCCastleNHibernate.Core.pdb

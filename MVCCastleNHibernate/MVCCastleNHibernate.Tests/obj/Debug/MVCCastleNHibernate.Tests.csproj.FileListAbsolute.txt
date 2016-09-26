@@ -112,3 +112,14 @@ C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bi
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\MVCCastleNHibernate.Core.dll
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\MVCCastleNHibernate.Data.NHibernate.pdb
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\MVCCastleNHibernate.Core.pdb
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\NHibernate.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\FluentNHibernate.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\MVCCastleNHibernate.Core.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\MVCCastleNHibernate.Data.NHibernate.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\Iesi.Collections.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\NHibernate.xml
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\FluentNHibernate.pdb
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\FluentNHibernate.xml
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\MVCCastleNHibernate.Core.pdb
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\MVCCastleNHibernate.Data.NHibernate.pdb
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.Tests\bin\Debug\Iesi.Collections.xml

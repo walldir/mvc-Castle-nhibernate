@@ -7,10 +7,12 @@ namespace MVCCastleNHibernate.Core.Services
     {
         List<Cliente> GetClienteList();
 
-        void CreateCliente(Cliente cliente);
+        Cliente GetCliente(int clienteId);
 
-        void UpdateCliente(Cliente cliente);
+        bool CreateCliente(Cliente cliente);
 
-        void DeleteCliente(int clienteId);
+        bool UpdateCliente(Cliente cliente);
+
+        bool DeleteCliente(int clienteId);
     }
 }

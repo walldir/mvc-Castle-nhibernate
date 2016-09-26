@@ -19,37 +19,67 @@ namespace MVCCastleNHibernate.WebAPI.Controllers
             _clienteService = clienteService;
         }
 
-        // GET api/values
+        /// <summary>
+        /// Retorna todos os Clientes, ordenando por Nome.
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
         public IEnumerable<Cliente> Get()
         {
             var clientes = _clienteService.GetClienteList();
             return clientes;
         }
 
-        // GET api/values/5
         /// <summary>
-        /// Retonar valor
+        /// Retona Cliente por Id
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">Id do cliente</param>
         /// <returns></returns>
-        public string Get(int id)
+        [HttpGet]
+        public Cliente Get(int id)
         {
-            return "value";
+            var cliente = _clienteService.GetCliente(id);
+            return cliente;
         }
 
-        // POST api/values
-        public void Post([FromBody]string value)
+        /// <summary>
+        /// Adiciona/Edita Cliente
+        /// </summary>
+        /// <param name="cliente">Cliente</param>
+        [HttpPost]
+        public HttpResponseMessage AddEdit(Cliente cliente)
         {
+            bool result = false;
+            HttpResponseMessage response = null;
+
+            if (cliente.Id == 0)
+                result = _clienteService.CreateCliente(cliente);
+            else
+                result = _clienteService.UpdateCliente(cliente);
+
+            if (result)
+                response = Request.CreateResponse(HttpStatusCode.OK, "Sucesso");
+            else
+                response = Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Ocorreu um erro inesperado.");
+
+            return response;
         }
 
-        // PUT api/values/5
-        public void Put(int id, [FromBody]string value)
+        /// <summary>
+        /// Exclui cliente
+        /// </summary>
+        /// <param name="id">Id do cliente</param>
+        [HttpGet]
+        public HttpResponseMessage Delete(int id)
         {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
+            if (_clienteService.DeleteCliente(id))
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, "Cliente excluído.");
+            }
+            else
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Ocorreu um erro inesperado.");
+            }
         }
     }
 }

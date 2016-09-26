@@ -137,3 +137,14 @@ C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\b
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\MVCCastleNHibernate.Data.NHibernate.dll
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\MVCCastleNHibernate.Core.pdb
 C:\Outros\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\MVCCastleNHibernate.Data.NHibernate.pdb
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\FluentNHibernate.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\Iesi.Collections.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\MVCCastleNHibernate.Core.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\MVCCastleNHibernate.Data.NHibernate.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\NHibernate.dll
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\MVCCastleNHibernate.Core.pdb
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\MVCCastleNHibernate.Data.NHibernate.pdb
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\FluentNHibernate.pdb
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\FluentNHibernate.xml
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\Iesi.Collections.xml
+C:\Waldir\Projetos\mvc-castle-nhibernate\mvc-Castle-nhibernate\MVCCastleNHibernate\MVCCastleNHibernate.WebAPI\bin\NHibernate.xml
