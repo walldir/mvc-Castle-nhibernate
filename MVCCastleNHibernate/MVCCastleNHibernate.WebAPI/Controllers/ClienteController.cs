@@ -58,7 +58,7 @@ namespace MVCCastleNHibernate.WebAPI.Controllers
                 result = _clienteService.UpdateCliente(cliente);
 
             if (result)
-                response = Request.CreateResponse(HttpStatusCode.OK, "Sucesso");
+                response = Request.CreateResponse(HttpStatusCode.OK, cliente);
             else
                 response = Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Ocorreu um erro inesperado.");
 
